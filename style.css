@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Poppins:wght@400;500;600&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Container_add{
+    margin: 2rem auto;
+    width: 30%;
+}
+input{
+    outline: none;
+}
+.box{
+    width: 250px;
+    height: fit-content;
+    background-color: #fff;
+}
+/* < =================== Breckpoints ================== > */
+/* --- Xsmall device --- */
+@media screen and (width <= 576px) {
+    html{
+        font-size: 10px;
+    }
+    .Container_add{
+        width: 90%;
+    }
+    .box{
+        width: 200px;
+    }
+}
+/* --- small device --- */
+@media screen and ( 577px <= width <= 768px) {
+    .Container_add{
+        width: 70%;
+    }
+}
+/* --- meduim device --- */
+@media screen and ( 769px <= width <= 991px) {
+    .Container_add{
+        width: 50%;
+    }
+}
